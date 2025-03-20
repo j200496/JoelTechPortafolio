@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/Css/portastyle.css">
+    <style>
+        .im {
+            width: 300px;  /* Ancho de la imagen */
+            height: 100px; /* Alto de la imagen */
+            object-fit: cover; /* Mantiene el contenido sin deformarlo */
+            border-radius: 10px;
+             /* Bordes ligeramente redondeados (opcional) */
+        }   
+        .whatsapp-float {
+    position: fixed; /* Se mantiene fijo en la pantalla */
+    width: 60px;
+    height: 60px;
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right: 20px; /* Distancia desde la parte derecha */
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(177, 168, 168, 0.3);
+    z-index: 1000; /* Se mantiene sobre otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .whatsapp-float:hover {
+    background-color: #1ebc5d;
+  }
+    </style>
+</head>
+<body>
+   
+  <nav class="navbar navbar-expand-lg full-screen bg-transparent">
+  <div class="container-fluid">                  
+      <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link active text-white" href="#nosotros">¿Quiénes somos?</a>              
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-white mx-4" href="#soporte" style="cursor: pointer;">
+                      Soporte 
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white mx-4" href="#contacto" style="cursor: pointer;">
+                    Contacto 
+                </a>
+            </li>
+          </ul>
+      </div>     
+  </div>       
+</nav>  
+       <main>     
+        <section id="intro"> 
+         <div class="container d-flex">
+          <div class="row justify-content-center">          
+              <div class="d-flex">
+                <h1>
+                  <div class="display-5 text-green">Bienvenidos</div>               
+                </h1>
+              </div>               
+          </div>
+         </div>
+         <a href="https://wa.me/18493577214" class="whatsapp-float" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        </section>
+         <section>
+         <div class="container d-flex"> 
+          <div class="row mx-10">
+          <div class="col-12 my-4 col-lg-4">
+            <div class="card cb">
+              <img src="/img/Capture1.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sistema de ventas</h5>
+                <ul>
+                  <li>Facturacion rapida con lector de codigo</li>                
+                  <li>Generacion de codigos de barra</li>
+                  <li>Manejo de compras</li>             
+                  <li>Facturas modernas con logo y mensaje editable</li>
+                  <li>Emision de NCF</li>
+                  <li>Reporte 606 de la DGI</li>
+                  <li>Reporte 607 de la DGI</li>
+                  <li>Configuracion del negocio</li>
+                  <li>Inventario automatico</li>
+                  <li>Cuentas por cobrar</li>
+                  <li>Cuentas por pagar</li>
+                  <li>Etc.</li>
+                </ul>
+                <a href="#" class="card-link"  data-bs-toggle="modal" data-bs-target="#miotroModal">Ver mas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-md-6 col-lg-4">
+            <div class="card cb">
+              <img src="/img/Captureft.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sistema de facturacion y administracion de negocios comida rapida</h5>
+                <p class="card-text">Sistema de facturacion administracion negocios de comida rapida.</p>
+                <a href="#" class="card-link"  data-bs-toggle="modal" data-bs-target="#miModal">Ver mas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-4 col-md-6 col-lg-4">
+            <div class="card cb">
+              <img src="/img/Capturemed.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sistema gestion de pacientes para medicos</h5>
+                <p class="card-text">Coming soon.</p>
+                <a href="#" class="card-link" id="soon">Soon</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>       
+       </main>
+       <section id="nosotros">
+        <div class="container-lg">
+         <div class="row">
+          <div class="col-12">
+            <img src="/img/Capturev.PNG" class="img-fluid rounded" alt="">
+          <h2 class="text-white">Quienes somos?</h2>
+            <p class="text-white">En <strong>Joel tech</strong>, transformamos la gestión empresarial con software innovador y personalizado. Desde sistemas de ventas hasta soluciones de facturación y gestión de inventarios, ofrecemos herramientas diseñadas para optimizar tu negocio y aumentar tu productividad.  
+              
+              🔹 Desarrollo de software a medida  
+              🔹 Sistemas de facturación y gestión empresarial  
+              🔹 Automatización de procesos para mayor eficiencia 
+              🔹 Soporte técnico y actualizaciones constantes  
+              
+              📞 Contáctanos hoy y lleva tu negocio al siguiente nivel.¡La transformación digital comienza aquí!💻</p>
+            <div class="row">
+              <section id="soporte">
+              <div class="col-6">
+                <h2>Escribenos</h2>
+                <label for="email" class="text-white">Correo:</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text bg-primary text-white"><i class="bi bi-envelope-fill"></i></span>
+                  <input type="text" class="form-control bg-transparent text-white" id="correo" placeholder="Correo" aria-label="Username" aria-describedby="basic-addon1">          
+                </div> 
+                <div>
+                  <small class="text-white font-arial" id="p"></small> 
+                </div>                
+                <label for="nombre" class="text-white">Nombre:</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text bg-primary text-white"><i class="bi bi-person-fill"></i></span>
+                  <input type="text" class="form-control bg-transparent text-white" id="nombre" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <label for="mensaje" class="text-white">Mensaje:</label>
+                <textarea id="mensaje" class=" form-control text-white bg-transparent"></textarea>
+                <button class="btn btn-outline-primary my-3" id="enviar">
+                  <i class="bi bi-envelope-at"></i> Enviar</button>
+              </div>
+             </div>       
+          </div>         
+         </div> 
+        </div>
+      </section>
+        <div class="container">
+         <div class="row mt-5">
+         </div> <div class="col-12 col-md-6 col-lg-4">
+            <h3 class="text-white my-3 mt-5">Contacto</h3>       
+          </div>
+        </div>
+        <hr class="text-white">
+      </section>
+      <footer>
+        <section id="contacto">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 py-1">             
+              <p class="text-white"><a href="" class="link text-primary"><i class="bi bi-facebook"></i></a> Joel_techrd</p> 
+              <p class="text-white"><a href="" class="link text-primary"><i class="bi bi-instagram"></i></a> Joel_techrd</p>            
+            </div>
+            <div class="col-8">
+              <p class="text-white"><a href="" class="link text-white"><i class="bi bi-whatsapp"></i></a> 849-357-7214</p>   
+              <p class="text-white py-1">
+                <i class="bi bi-geo-alt-fill"></i>           
+                Santo Domingo, Rep,Dom.
+              </p>
+            </div>
+          </div>
+          <h3 style="color: white;">Ubicación</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d945.9745909176504!2d-69.85166815215347!3d18.488262403658577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sdo!4v1741822292893!5m2!1ses!2sdo" width="1130" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            width="100%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </section>
+      </footer>
+      <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="modal-header">
+              <h5 class="modal-title" style="color: white;" id="modalTitulo">Sistema de ventas para Food trucks</h5>
+      
+              <button type="button" class="btn-close bg-success" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+            <p style="color: white;">📢 Sistema de Facturación para Fast Food 🍔🍕
+
+              🔥 ¡Optimiza tu negocio con un sistema rápido, fácil y sin internet! 🔥
+              <br>
+              🖥 Incluye:
+              <br>
+              ✅ Software completo con:
+              <ul>
+                <li style="color: white;">Gestión de usuarios con permisos</li>
+                <li style="color: white;">Registro de productos y categorías</li>
+                <li style="color: white;">Módulo de compras y gastos</li>
+                <li style="color: white;">Reportes detallados de ventas, ganancias y pérdidas</li>
+                <li style="color: white;">Estadísticas de los 5 productos más vendidos</li>
+                <li style="color: white;">Facturación rápida en módulo de caja</li>
+                <li style="color: white;">Configuración de la información del negocio</li>
+                <li style="color: white;">✅ Hardware incluido:</li>
+                <li style="color: white;">Mini laptop Lenovo Touch (4GB RAM, 120GB SSD, Windows 10 Pro)</li>
+                <li style="color: white;">Impresora térmica 2Connect 58mm para tickets de venta 🖨</li>
+                <li style="color: white;">Mouse para mayor comodidad</li>
+                <li style="color: white;">✅ Beneficios clave:</li>
+                <li style="color: white;">No necesita internet</li>
+                <li style="color: white;"> No usa la nube, toda la información es 100% local</li>
+                <li style="color: white;">Súper fácil de usar, sin complicaciones</li>
+                <li style="color: white;">6 meses de garantía</li>
+              </ul>                                                 
+             </p>
+            </div>
+            <div class="modal-footer">  
+          <div class="row justify-content-start">
+            <p style="color: white;"> 📞 WhatsApp: 849-357-7214.</p>   
+          </div>      
+            </div>
+          </div>
+        </div>       
+      </div>      
+      <div class="modal fade" id="miotroModal" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="modal-header">
+              <h5 class="modal-title" style="color: white;" id="modalTitulo">Sistema de ventas para Food trucks</h5>
+      
+              <button type="button" class="btn-close bg-success" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+            <p style="color: white;">📢 Sistema de Facturación
+
+              🔥 ¡Optimiza tu negocio con un sistema rápido, fácil y sin internet! 🔥
+              <br>
+              🖥 Incluye:
+              <br>
+              ✅ Software completo con:
+              <ul>
+                <li style="color: white;">Manejo Usuarios con permisos</li>
+                <li style="color: white;">Manejo de Proveedores</li>
+                <li style="color: white;">Manejo de clientes</li>
+                <li style="color: white;">Configuración de productos con cálculos de itbis automático</li>
+                <li style="color: white;">Inventario automátizado</li>
+                <li style="color: white;">Configuración de cobros de servicios</li>
+                <li style="color: white;">Creación de código de barras con descripción del producto y precio</li>
+                <li style="color: white;">Registro de compras</li>
+                <li style="color: white;">Manejo de cotizaciones de productos</li>
+                <li style="color: white;">Caja de cobro de productos con lector de código</li>               
+                <li style="color: white;">Reporte de ventas</li>
+                <li style="color: white;">Reporte de compras</li>
+                <li style="color: white;">Reporte de productos</li>
+                <li style="color: white;">Cuentas por pagar</li>
+                <li style="color: white;">Cuentas por cobrar</li>
+                <li style="color: white;">Filtrado de total de ventas por día semana mes o año</li>
+                <li style="color: white;">Configuración de datos del negocio,logo y mensaje en facturas</li>
+                <li style="color: white;">Gráficos con filtrado de producción y gastos  de compra por día,semana,mes o año</li>
+                <li style="color: white;">Factura profesional con logo del negocio, redes sociales y mensaje actualizable</li>
+              </ul>                                                 
+             </p>
+            </div>
+            <div class="modal-footer">  
+          <div class="row justify-content-start">
+            <p style="color: white;"> 📞 WhatsApp: 849-357-7214.</p>   
+          </div>      
+            </div>
+          </div>
+        </div>       
+      </div>      
+      <script>
+        document.getElementById("soon").addEventListener("click",function(){
+          Swal.fire({
+           icon: "info",
+           title: "En construccion!",
+           text: "Pronto estara disponible!"
+          });
+        })
+document.getElementById("enviar").addEventListener("click", function () {
+    let correo = document.getElementById("correo");
+    let mensaje = document.getElementById("mensaje");
+    let nombre = document.getElementById("nombre");
+
+    // Eliminar espacios en blanco y validar que los campos no estén vacíos
+    if (nombre.value.trim() !== "" && correo.value.trim() !== "" && mensaje.value.trim() !== "") {
+        Swal.fire({
+            icon: "success",
+            title: "Mensaje enviado!",
+            background: "#118ab2",
+             color: "#f8f9fa",
+            text: "Mensaje enviado al correo de soporte exitosamente!"
+        });
+
+        // Vaciar los campos después de enviar el mensaje
+        nombre.value = "";
+        correo.value = "";
+        mensaje.value = "";
+    } else {
+        Swal.fire({
+            icon: "error",
+            title: "Campos vacíos",
+             background: "#118ab2",
+             color: "#f8f9fa",
+            text: "Todos los campos son requeridos."
+        });
+    }
+});
+
+     
+      </script>
+</body>
+</html> 

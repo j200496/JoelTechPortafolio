@@ -1,0 +1,55 @@
+body{
+    background-image: url(/img/new.png);
+    background-color: rgb(118, 136, 136);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: auto;
+  }
+  @media(max-width: 991px){
+      .sidebar{
+          background-color: rgba(255,255,255,0.15);
+          backdrop-filter: blur(10px);
+      }
+  }
+  .test{
+      background-color: rgba(255,255,255,0.15);  
+      color: white; 
+  }
+  #cont{
+      width: 350px;
+  }
+  #alert{
+      display: none;
+  }
+  .firstcard{
+      background-color: rgba(255,255,255,0.15); 
+  }
+  .pcard{
+      color: white;
+  
+  }
+  .firstp{
+      color: aliceblue;
+  }
+  h2{
+      color: aquamarine;
+  }
+  .cb{
+      background-color: rgba(255,255,255,0.15);  
+      color: white;
+  }
+  h1{
+   
+      text-align: center;
+      color: aquamarine;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .col-12 img {
+      width: 100%; /* La imagen ocupará el 100% del contenedor */
+      height: 30%; /* Mantiene la proporción original */
+      display: block;
+      object-fit: cover; /* Evita espacios en blanco debajo de la imagen */
+  }
+  
