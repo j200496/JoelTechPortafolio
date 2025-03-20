@@ -1,6 +1,6 @@
 body{
-    background-image: url(/img/new.png);
-    background-color: rgb(118, 136, 136);
+    background-image: url("img/new.png");
+    background-color: rgb(44, 76, 112);
       background-blend-mode: multiply;
       background-position: center;
       background-size: cover;
