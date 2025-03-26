@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculadora/Ff.Css/FastF.Css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/main.min.js"></script>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+      
+    </style>
+</head>
+<body style="background-color: black;"> 
+    <a href="https://wa.me/18493577214" class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+        <nav class=" navbar navbar-expand-lg full-screen bg-dark">
+         <div class="container">
+            <a class="nav-link active text-white" href="test.html">
+                <img src="/img/logonew.jpg" style="border-radius: 50%; object-fit: cover;" width="60"; height="50"; alt="">
+                <span style="color: yellow; font-size: large;" class="mt-2"  href="test.html">Demo restaurant</span>
+              </a><button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navmenu">
+               <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                 <a class="nav-link active text-warning" href="#nosotros">Quienes somos?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-warning" href="#contacto">Contacto</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link active text-warning" href="#menu">Menu</a>
+                   </li>
+               </ul>
+              </div>
+         </div>
+        </nav>
+        <div class="contenedor-texto">
+          <div class="row justify-content-end">
+            <div class="col-12">         
+                <h2 style="color: rgb(20, 16, 16);">
+                  DEMO            
+                </h2>
+            </div>
+          </div>
+        </div>
+        <section>
+            <div class="container mt-2">
+                <h2 class="text-center mb-4" style="color: yellow;">Nuestros Platos</h2>
+                <div id="carouselPlatos" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/mfngo.jpeg" class="d-block w-100" height="317" alt="Plato 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pechugaalap.jpg" class="d-block w-100" height="317" alt="Plato 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Capturefastf.PNG" class="d-block w-100" height="317" alt="Plato 3">
+                        </div>
+                    </div>
+                    <!-- Controles -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlatos" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPlatos" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+         <section id="menu" class="contcard">
+           <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img class="PedidosYa img-thumbnail mt-2" src="img/PedidosYa.jpg" alt="">
+                    <h2 ">Ordenar aqui</h2>
+                </div>
+                <div class="col-8 col-md-6 col-lg-5 mt-5">
+                    <h1 style="font-size: 50px;" class="d-flex">Nuestro menu</h1>
+                </div>
+                <div class="row">
+                    <section>                     
+                        <div class="row">
+                            <div class="col-12 mt-4 col-md-6 col-lg-4">
+                                <div class="card cb" id="card">
+                                  <img src="img/mofongo.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-white">mofongos</h5>
+                                    <p class="card-text text-white">Variedad de mofongos</p>
+                                    <a href="Calculadora/mofong.htm" class="card-link" style="color: rgb(255, 255, 255);">Ver todos</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 my-4 col-md-6 col-lg-4">
+                                <div class="card cb" id="card" >
+                                  <img src="img/yaroapla.webp" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-white">Yaroas</h5>
+                                    <p class="card-text text-white">Sistema de facturacion administracion negocios de comida rapida.</p>
+                                    <a href="Calculadora/yaroas.html" class="card-link" style="color: rgb(255, 255, 255);">Ver todas</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 my-4 col-md-6 col-lg-4">
+                                <div class="card cb"id="card">
+                                  <img src="img/pizza test.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-white">Pizzas</h5>
+                                    <p class="card-text text-white">Sistema de facturacion administracion negocios de comida rapida.</p>
+                                    <a href="/Calculadora/pizza.html" class="card-link" style="color: rgb(255, 255, 255);">Ver todas</a>
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12 mt-4 col-md-6 col-lg-4">
+                                <div class="card cb"id="card">
+                                  <img src="img/Capturefastf.PNG" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-white">Hamburguesas</h5>
+                                    <p class="card-text text-white">Variedad de Hamburguesas</p>
+                                    <a href="Calculadora/hamb.html" class="card-link" style="color: rgb(255, 255, 255);">Ver todas</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 my-4 col-md-6 col-lg-4">
+                                <div class="card cb" id="card">
+                                  <img src="img/bebidas.png" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-white">Bebidas</h5>
+                                    <p class="card-text text-white">Sistema de facturacion administracion negocios de comida rapida.</p>
+                                    <a href="Calculadora/bebidas.html" class="card-link" style="color: rgb(255, 255, 255);">Ver todas</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 my-4 col-md-6 col-lg-4">
+                                <div class="card cb"id="card">
+                                  <img src="img/pechugaalap.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-white">Platos</h5>
+                                    <p class="card-text text-white">Sistema de facturacion administracion negocios de comida rapida.</p>
+                                    <a href="Calculadora/platos.html" class="card-link" style="color: rgb(255, 255, 255);">Ver</a>
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+                          </div>
+                      </section>   
+                </div>
+           </div>
+         </section>
+         </div>
+        <div class="container">       
+            <section id="nosotros">
+                <div class="row justify-content-center mt-4">               
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-lg-3 d-flex">
+                        <img class=" bg-transparent" src="img/logonew.jpg" style="border-radius: 50%;" alt="">                
+                    </div>                 
+                </div>
+                <div class="row mt-3">
+                    <div class="col">                                   
+                        <p class="text-center text-white"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis hic sint, odit dolorem incidunt fugiat reprehenderit, similique error nemo illum voluptate dolor animi maxime suscipit excepturi. Ipsum quisquam quo doloribus.
+                        Repellat iusto, molestiae consequuntur vel modi sit sint aperiam. Animi optio quo natus accusamus? Sapiente, quis impedit aliquid unde magnam quo dicta inventore corporis, non provident nihil possimus alias distinctio!
+                        Cumque quia natus neque soluta illo consequatur  fugiat asperiores ut, cupiditate perferendis, necessitatibus nostrum pariatur magnam sapiente expedita iusto tenetur perspiciatis laborum explicabo itaque doloremque reprehenderit odio odit aliquid! Dolores.
+                        Atque earum id nihil, obcaecati, illum doloribus rerum ad odit laboriosam sequi nam excepturi. Praesentium consectetur saepe esse dolor quod, nihil eius dolore corporis quia ratione, quas necessitatibus similique? Dolores.
+                        Quam, aperiam impedit unde ipsum distinctio similique dolorum tempore assumenda cumque commodi natus laudantium suscipit doloremque reiciendis voluptate voluptates esse aut ea eligendi id excepturi libero. Harum vel nisi eaque.</p>
+                    </div>           
+                </div>
+            </section>           
+        </div>
+        <div style="color: rgb(251, 255, 10);" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-warning">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <section id="contacto">
+            <hr style="color: white;">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-start">
+                      <div class="col-6 py-1">             
+                        <p class="text-white"><a href="" class="link text-primary"><i class="bi bi-facebook"></i></a> Fast food</p> 
+                        <p class="text-white"><a href="" class="link" style="color: rgb(240, 7, 46);"><i class="bi bi-instagram"></i></a> Fast food</p>            
+                      </div>
+                      <div class="col-6">
+                        <p class="text-white"><a href="" class="link" style="color: green;"><i class="bi bi-whatsapp"></i></a> 809-000-0000</p>   
+                        <p class="text-white py-1">
+                          <i class="bi bi-geo-alt-fill"></i>           
+                          Santo Domingo, Rep,Dom.
+                        </p>
+                        <p class="text-white">
+                            <i class="bi bi-envelope-at-fill"></i>       
+                            Test@gmail.com
+                          </p>
+                      </div>
+                    </div>
+                    <h3 style="color: white;">Ubicación</h3>
+                    <div class="container">
+                      <div class="row">
+                          <div class="col">
+                              <div class="map-container">
+                                  <iframe 
+                                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d945.9745909176504!2d-69.85166815215347!3d18.488262403658577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sdo!4v1741822292893!5m2!1ses!2sdo" 
+                                      allowfullscreen 
+                                      loading="lazy"
+                                      referrerpolicy="no-referrer-when-downgrade">
+                                  </iframe>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  </div>
+            </footer>
+        </section> 
+        <script>
+          let boton = document.getElementById("btnMover");
+          let moviendo = true;
+      
+          function moverBoton() {
+              if (moviendo) {
+                  let nuevaX = Math.random() * (window.innerWidth - 2);
+                  let nuevaY = Math.random() * (window.innerHeight - 2);
+                  boton.style.left = nuevaX + "px";
+                  boton.style.top = nuevaY + "px";
+              }
+          }
+      
+          // Mueve el botón cada 1 segundo si el mouse NO está encima
+          let intervalo = setInterval(moverBoton, 1000);
+      
+          // Detener movimiento cuando el mouse está encima
+          boton.addEventListener("mouseenter", function () {
+              moviendo = false;
+          });
+      
+          // Reanudar movimiento cuando el mouse sale
+          boton.addEventListener("mouseleave", function () {
+              moviendo = true;
+          });
+      </script>
+              
+</body>
+</html>
